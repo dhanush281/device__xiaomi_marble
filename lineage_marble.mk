@@ -14,6 +14,20 @@ PRODUCT_NAME := lineage_marble
 PRODUCT_DEVICE := marble
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Face Unlock
+TARGET_FACE_UNLOCK := true
+# Blur
+TARGET_ENABLE_BLUR := true
+# BCR (Call recording)
+TARGET_PREBUILT_BCR := true
+# Mist OS Flags
+MIST_BUILD_TYPE := OFFICIAL
+MISTOS_MAINTAINER := AndroidME77_x_Dhanush
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+PRODUCT_NO_CAMERA := false
+TARGET_DISABLE_EPPE := true
+
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := POCO/marble_global/marble:15/AQ3A.241006.001/OS2.0.5.0.VMRMIXM:user/release-keys
 
