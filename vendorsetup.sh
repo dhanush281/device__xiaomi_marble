@@ -8,7 +8,7 @@ echo 'Cloning Basic Call Recorder Tree'
 	git clone https://github.com/dhanush281/android_vendor_bcr.git vendor/bcr
 
 echo 'Cloning Device Common Tree'
-	git clone https://github.com/dhanush281/android_device_xiaomi_sm8450-common.git device/xiaomi/sm8450-common
+	git clone https://github.com/dhanush281/device_xiaomi_sm8450-common.git device/xiaomi/sm8450-common
 
 echo 'Cloning MemeCamera Tree'
 	git clone https://github.com/dhanush281/android_device_xiaomi_miuicamera-marble.git device/xiaomi/miuicamera-marble
@@ -30,7 +30,7 @@ echo 'Cloning Kernel Tree'
 	git clone https://github.com/dhanush281/android_kernel_xiaomi_sm8450-devicetrees.git kernel/xiaomi/sm8450-devicetrees
 
 echo 'Cloning Vendor Tree'
-	git clone https://github.com/dhanush281/proprietary_vendor_xiaomi_marble.git vendor/xiaomi/marble
+	git clone https://github.com/dhanush281/vendor-xiaomi-marble.git vendor/xiaomi/marble
 
 echo 'Cloning Vendor Common Tree'
-	git clone https://github.com/dhanush281/android_vendor_xiaomi_sm8450-common.git vendor/xiaomi/sm8450-common
+	git clone https://github.com/dhanush281/vendor_xiaomi_sm8450-common.git vendor/xiaomi/sm8450-common
